@@ -1,22 +1,29 @@
-\# Credential Hardening
+# Credential Hardening
 
+## Problem
 
+Several infrastructure devices were discovered using factory default administrative credentials.
 
-Default administrative credentials were identified on several network devices.
+This is one of the most common vulnerabilities found in small business environments.
 
+If exploited, it could allow full administrative control of:
 
+* network routing infrastructure
+* surveillance systems
+* wireless configuration
 
-\## Actions Taken
+---
 
+## Remediation Steps
 
+1. Replaced all default credentials with strong unique passwords.
+2. Ensured different devices used separate credentials.
+3. Removed unnecessary administrative accounts where possible.
 
-\- Replaced default passwords with strong unique credentials
+---
 
-\- Ensured password separation between devices
+## Outcome
 
-\- Documented credentials securely for management access
+Credential reuse risk was eliminated and administrative access was secured.
 
-
-
-This reduced the risk of full network compromise through credential reuse.
-
+This significantly reduced the likelihood of full infrastructure compromise.
