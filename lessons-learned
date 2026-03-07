@@ -1,0 +1,15 @@
+# Lessons Learned
+
+## Documentation is Rare in Small Businesses
+Many small venues operate with little or no infrastructure documentation.
+
+Creating a device inventory and network diagram significantly improves supportability.
+
+## Default Credentials Are Still Common
+Several devices were still using factory default credentials. This remains one of the most common vulnerabilities in small networks.
+
+## Security Improvements Must Not Interrupt Operations
+Remediation work was performed during off-peak hours to avoid disrupting business systems such as POS and security cameras.
+
+## Incremental Security Improvements Are Effective
+Even small changes such as firmware updates, credential rotation, and secure remote access significantly reduced overall risk.
