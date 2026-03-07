@@ -1,50 +1,36 @@
-# Hospitality Network Security Uplift (Case Study)
+# Hospitality Network Security Uplift
 
-## Overview
+This project documents a real-world network security remediation performed for a small hospitality venue.
 
-This project documents a security assessment and remediation effort conducted for a small hospitality venue in Melbourne, Australia.
+The goal was to identify vulnerabilities in an existing network and implement practical improvements to reduce security risk while maintaining business operations.
 
-The goal of the project was to identify security weaknesses in the venue's network and implement practical improvements to reduce risk.
-
-Sensitive information such as credentials, internal IP addresses, and identifying details has been removed for privacy and security reasons.
+All identifying details, credentials, and internal network information have been removed to protect the organisation.
 
 ---
 
-## Project Objectives
+## Project Overview
 
-* Identify critical vulnerabilities in the venue's network
-* Improve credential management practices
-* Reduce exposure of internet-facing services
-* Improve device hardening
-* Document the environment for future IT support
+Initial assessment identified several common small-business security issues:
 
----
+* Default credentials on critical infrastructure
+* Outdated firmware on network devices
+* Insecure remote access configuration
+* Weak wireless security
+* Lack of network documentation
 
-## Key Security Issues Identified
-
-Initial assessment revealed several common small-business security risks:
-
-* Shared administrative credentials across multiple devices
-* Default or weak passwords on network equipment
-* Exposed management interfaces
-* Poor device documentation
-* Lack of network segmentation
+These issues created a high risk of network compromise.
 
 ---
 
-## Remediation Work Completed
+## Remediation Work
 
-### Credential Separation
+The following improvements were implemented:
 
-Administrative passwords were separated across devices to eliminate single-credential compromise risk.
-
-### Device Hardening
-
-Network devices were updated and secured with stronger authentication controls.
-
-### Documentation
-
-A full device inventory and network diagram were created to assist with ongoing support and incident response.
+* Replacement of default administrative credentials
+* Deployment of secure VPN-based remote administration
+* Firmware updates on network infrastructure
+* Wireless network reconfiguration using modern encryption
+* Device inventory and documentation
 
 ---
 
@@ -52,24 +38,32 @@ A full device inventory and network diagram were created to assist with ongoing 
 
 After remediation:
 
-* Critical vulnerabilities were removed
+* Critical vulnerabilities were eliminated
 * Administrative access was secured
-* Device documentation was improved
-* The overall attack surface was significantly reduced
+* Device management services were hardened
+* Overall network security posture significantly improved
 
 ---
 
-## Tools & Skills Demonstrated
+## Skills Demonstrated
 
 * Network security auditing
 * Vulnerability identification
-* Credential security management
-* Network documentation
-* Risk remediation planning
+* Infrastructure hardening
+* VPN deployment
+* Wireless network configuration
+* Security documentation
+
+---
+
+## Network Architecture (Sanitised)
+
+See `/diagrams/sanitized_network_diagram.png`
 
 ---
 
 ## Disclaimer
 
-This repository is a **sanitized case study**.
-All sensitive infrastructure information has been removed or generalized to protect the organization involved.
+This repository is a **sanitised case study based on a real project**.
+
+All sensitive information including credentials, IP addresses, device identifiers, and business details has been removed.
