@@ -1,28 +1,60 @@
-\# Initial Network Security Assessment
+# Initial Network Security Assessment
 
+## Overview
 
+A security review was conducted on a small hospitality venue network to identify potential vulnerabilities and operational risks.
 
-A preliminary security review of a small hospitality venue network identified several security weaknesses.
+The environment consisted of standard small-business infrastructure including:
 
+* Internet gateway/router
+* Switch infrastructure
+* Wireless access point
+* POS systems
+* CCTV/NVR system
+* Staff devices
 
+The objective of the assessment was to identify weaknesses that could lead to network compromise or service disruption.
 
-\## Key Issues
+---
 
+## Key Vulnerabilities Identified
 
+### Default Credentials
 
-\- Default credentials on infrastructure devices
+Multiple infrastructure devices were still using factory default administrative credentials.
 
-\- Outdated firmware
+**Risk:**
+An attacker with network access could gain full administrative control of critical systems.
 
-\- Insecure remote administration
+---
 
-\- Weak wireless security configuration
+### Outdated Firmware
 
+Several network devices were running outdated firmware versions.
 
+**Risk:**
+Known vulnerabilities could potentially be exploited.
 
-These issues presented a risk of network compromise and required remediation.
+---
 
+### Insecure Remote Access
 
+Remote administration services were exposed without secure tunnelling.
 
-This repository documents the remediation work performed.
+**Risk:**
+Management interfaces could be targeted from outside the network.
 
+---
+
+### Weak Wireless Configuration
+
+Wireless security configuration did not follow current best practices.
+
+**Risk:**
+Unauthorized devices could potentially access internal services.
+
+---
+
+## Assessment Outcome
+
+The environment contained several **high-risk but easily remediated vulnerabilities** common in small
