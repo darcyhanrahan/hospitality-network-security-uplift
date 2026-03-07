@@ -2,19 +2,27 @@
 
 
 
-A preliminary review of the venue network identified several security issues:
+A preliminary security review of a small hospitality venue network identified several security weaknesses.
 
 
 
-\- Default credentials on network infrastructure
+\## Key Issues
+
+
+
+\- Default credentials on infrastructure devices
 
 \- Outdated firmware
 
-\- Insecure remote access configuration
+\- Insecure remote administration
 
-\- Weak wireless security
+\- Weak wireless security configuration
 
 
 
 These issues presented a risk of network compromise and required remediation.
+
+
+
+This repository documents the remediation work performed.
 
