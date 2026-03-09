@@ -1,54 +1,105 @@
 # Hospitality Network Security Uplift
+Security Assessment & Remediation Case Study
 
-This project documents a real-world network security remediation performed for a small hospitality venue.
+This repository documents a **real-world network security remediation project** performed for a small hospitality venue.
 
-The goal was to identify vulnerabilities in an existing network and implement practical improvements to reduce security risk while maintaining business operations.
+The objective was to assess the security posture of an existing network, identify vulnerabilities, and implement practical improvements to reduce risk while maintaining business operations.
 
 All identifying details, credentials, and internal network information have been removed to protect the organisation.
 
 ---
 
-## Project Overview
+# Project Overview
 
-Initial assessment identified several common small-business security issues:
+The initial assessment identified several common small-business security issues that could lead to network compromise if left unaddressed.
+
+## Security Risk Summary
+
+| Severity | Issues Identified                            |
+| -------- | -------------------------------------------- |
+| Critical | Default administrative credentials           |
+| High     | Insecure remote administration configuration |
+| High     | Outdated network device firmware             |
+| Medium   | Weak wireless security configuration         |
+| Medium   | Lack of network documentation                |
+
+**Overall Risk Rating:** High
+
+Risk was primarily driven by exposed administrative services and default credentials on critical infrastructure devices.
+
+
+### Key Findings
 
 * Default credentials on critical infrastructure
 * Outdated firmware on network devices
 * Insecure remote access configuration
-* Weak wireless security
-* Lack of network documentation
+* Weak wireless security configuration
+* Lack of network documentation and device inventory
+* Exposed administrative services
 
-These issues created a high risk of network compromise.
+These weaknesses significantly increased the risk of **unauthorised access, credential compromise, and network takeover**.
 
 ---
 
-## Remediation Work
+# Security Assessment & Analysis
 
-The following improvements were implemented:
+This project includes several security analysis components typically used in professional security engagements:
+
+* **Vulnerability assessment** of network services and infrastructure
+* **Threat modeling** to evaluate realistic attacker pathways
+* **Attack tree analysis** to map possible compromise scenarios
+* **Remediation planning** to reduce risk and harden the environment
+
+Repository contents:
+
+```
+hospitality-network-security-uplift/
+│
+├─ README.md
+├─ vulnerability-report.md
+├─ threat-model-stride.md
+├─ attack-tree.md
+├─ remediation-plan.md
+└─ diagrams/
+    └─ sanitized_network_diagram.png
+```
+
+---
+
+# Remediation Work
+
+The following improvements were implemented to reduce risk and improve overall security posture:
 
 * Replacement of default administrative credentials
-* Deployment of secure VPN-based remote administration
-* Firmware updates on network infrastructure
-* Wireless network reconfiguration using modern encryption
-* Device inventory and documentation
+* Deployment of **VPN-based remote administration**
+* Firmware updates across network infrastructure
+* Wireless network reconfiguration using modern encryption standards
+* Hardening of administrative services
+* Creation of a device inventory and network documentation
 
 ---
 
-## Results
+# Results
 
-After remediation:
+Following remediation:
 
 * Critical vulnerabilities were eliminated
-* Administrative access was secured
+* Administrative access pathways were secured
+* Network infrastructure firmware was updated
 * Device management services were hardened
-* Overall network security posture significantly improved
+* Overall network security posture was significantly improved
 
 ---
 
-## Skills Demonstrated
+# Skills Demonstrated
 
+This project demonstrates practical cybersecurity and infrastructure skills including:
+
+* Network enumeration
 * Network security auditing
-* Vulnerability identification
+* Vulnerability analysis
+* Threat modeling
+* Security architecture thinking
 * Infrastructure hardening
 * VPN deployment
 * Wireless network configuration
@@ -56,13 +107,19 @@ After remediation:
 
 ---
 
-## Network Architecture (Sanitised)
+# Network Architecture (Sanitised)
 
-See `/diagrams/sanitized_network_diagram.png`
+A simplified network diagram is included to illustrate the architecture of the environment.
+
+See:
+
+```
+/diagrams/sanitized_network_diagram.png
+```
 
 ---
 
-## Disclaimer
+# Disclaimer
 
 This repository is a **sanitised case study based on a real project**.
 
