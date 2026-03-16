@@ -36,6 +36,35 @@ The initial assessment identified several common small-business security issues 
 
 Risk was primarily driven by exposed administrative services and default credentials on critical infrastructure devices.
 
+## Security Assessment Methodology
+
+The following methodology was used during the assessment:
+
+1. **Network Enumeration**
+   - Identification of network infrastructure and services
+
+2. **Configuration Review**
+   - Analysis of administrative access methods and device settings
+
+3. **Vulnerability Identification**
+   - Detection of misconfigurations and outdated firmware
+
+4. **Threat Modelling**
+   - STRIDE analysis used to evaluate potential attacker pathways
+
+5. **Remediation Planning**
+   - Prioritisation of security improvements based on risk level
+
+6. **Implementation & Hardening**
+   - Deployment of configuration changes to secure the environment
+
+## Techniques & Concepts Used
+
+- STRIDE Threat Modelling
+- Attack Tree Analysis
+- Network Enumeration
+- Infrastructure Hardening
+- VPN Security Architecture
 
 ### Key Findings
 
@@ -46,8 +75,7 @@ Risk was primarily driven by exposed administrative services and default credent
 * Lack of network documentation and device inventory
 * Exposed administrative services
 
-These weaknesses significantly increased the risk of **unauthorised access, credential compromise, and network takeover**.
-
+These weaknesses significantly increased the risk of **unauthorised access, credential compromise, and potential full network compromise**.
 ---
 
 # Security Assessment & Analysis
@@ -65,10 +93,15 @@ Repository contents:
 hospitality-network-security-uplift/
 │
 ├─ README.md
-├─ vulnerability-report.md
-├─ threat-model-stride.md
-├─ attack-tree.md
-├─ remediation-plan.md
+│
+├─ report/
+│   ├─ initial-assessment-summary.md
+│   ├─ threat-model.md
+│   └─ attack-tree.md
+│
+├─ remediation-notes/
+│   └─ remediation-plan.md
+│
 └─ diagrams/
     └─ sanitized_network_diagram.png
 ```
@@ -123,7 +156,8 @@ A simplified network diagram is included to illustrate the architecture of the e
 See:
 
 ```
-/diagrams/sanitized_network_diagram.png
+![Sanitised Network Architecture](diagrams/sanitized_network_diagram.png)
+
 ```
 
 ---
