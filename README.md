@@ -7,6 +7,15 @@ The objective was to assess the security posture of an existing network, identif
 
 All identifying details, credentials, and internal network information have been removed to protect the organisation.
 
+## Repository Contents
+
+| Section | Description |
+|--------|-------------|
+| [Initial Assessment](report/initial-assessment-summary.md) | Summary of vulnerabilities identified during the initial audit |
+| [Threat Model](report/threat-model.md) | STRIDE threat modelling of the network environment |
+| [Remediation Notes](remediation-notes/) | Security improvements implemented |
+| [Network Diagram](diagrams/sanitized_network_diagram.png) | Sanitised architecture diagram |
+
 ---
 
 # Project Overview
